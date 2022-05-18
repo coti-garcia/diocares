@@ -164,8 +164,8 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 18px;
-		font-weight: 300;
+		font-size: 1rem;
+		font-weight: 400;
 		letter-spacing: 0.0375em;
 		line-height: 2;
 	}
@@ -3885,4 +3885,9 @@ input, select, textarea {
 			padding: 4rem;
 		}
 
+	}
+	@media screen and (min-width: 1024px) {
+		body, input, select, textarea {
+			font-size: 1.125rem;
+		}
 	}
