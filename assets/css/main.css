@@ -3893,3 +3893,7 @@ input, select, textarea {
 			font-size: 1.125rem;
 		}
 	}
+
+	.intro p, .intro ul, .intro a{
+		font-size: 18px;
+	}
