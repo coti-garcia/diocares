@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	font-weight: 400;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -164,7 +166,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #000000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 1rem;
+		font-size: 1.125rem;
 		font-weight: 400;
 		letter-spacing: 0.0375em;
 		line-height: 2;
@@ -3262,7 +3264,7 @@ input, select, textarea {
 			}
 
 				#wrapper section > header h2 {
-					margin: 0 0 3rem 0;
+					margin: 0 0 2rem 0;
 				}
 
 				#wrapper section > header h1 + p {
